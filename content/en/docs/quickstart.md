@@ -41,7 +41,7 @@ docker push localhost:5001/net-monitor:v1
 
 Get the digest value of the *localhost:5001/net-monitor:v1* image using `docker inspect`. For example:
 
-```
+```console
 docker inspect --format='{{index .RepoDigests 0}}' localhost:5001/net-monitor:v1
 ```
 Output:
